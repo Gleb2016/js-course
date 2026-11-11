@@ -38,8 +38,7 @@ function countNodes(node) {
 printTree(catalog);
 console.log('всего категорий:', countNodes(catalog));
 
-function endless(n) {
-    return endless(n + 1);
-}
-
+// function endless(n) {
+//     return endless(n + 1);
+// }
 // endless(1);
