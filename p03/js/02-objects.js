@@ -1,16 +1,16 @@
 const product = {
-    name: '',
+    name: 'Клавиатура',
     price: 1250, 
     'in stock': true,
 };
 
-console.log(product.name, product['price'], product['in stock'])
+console.log(product.name, product['price'], product['in stock']);
 const field = 'price';
 console.log('через переменную:', product[field]);
 
-product.stock = 12;
-product.price = 1190;
-delete product['in stock'];
+product.stock = 12; // добавить
+product.price = 1190; // изменить
+delete product['in stock']; // удалить
 console.log(product);
 console.log('нет такого свойства:', product.color);
 
